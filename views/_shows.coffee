@@ -1,1 +1,4 @@
-h2 '{{title}}'
+ul ->
+	text '{{#each shows}}'
+	li '{{name}}'
+	text '{{/each}}'
