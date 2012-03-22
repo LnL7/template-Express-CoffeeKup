@@ -7,11 +7,11 @@ html ->
 		coffeescript ->
 			@App = Em.Application.create()
 
-		for f in ['main']
+		for f in []
 			script type: 'text/x-handlebars', 'data-template-name': f, ->
 				partial '_' + f
 
 			script type: 'text/javascript', src:"/js/" + f + ".js"
 
 	body ->
-			@body
+		div @body

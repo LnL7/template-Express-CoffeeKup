@@ -1,4 +1,4 @@
-h1 @title
+h6 @title
 
 script type: 'text/x-handlebars', ->
-	div '{{view App.main}}'
+	#

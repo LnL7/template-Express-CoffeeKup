@@ -18,6 +18,6 @@ app.get '/favicon.ico', (req, res) ->
 	res.send ''
 
 app.get '/', (req, res) ->
-	res.render 'app', title: 'App View'
+	res.render 'app'
 
 app.listen process.env.PORT || 5000
