@@ -1,4 +1,4 @@
-h6 @title
+h6 class: 'box', @title
 
 script type: 'text/x-handlebars', ->
 	#
